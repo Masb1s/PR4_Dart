@@ -12,6 +12,45 @@
 колекції та обробка даних;
 асинхронне програмування.
 
+## UML Diagram
+
+```text
+                Person
+                   |
+                   |
+             Professor
+                   |
+                   |
+---------------------------------
+
+Student
++ id
++ firstName
++ lastName
++ birthDate
++ enrolledCourses
++ grades
+
+Course
++ id
++ name
++ description
++ credits
++ instructor
++ prerequisites
+
+University
++ students
++ professors
++ courses
+```
+## Sample Report
+
+Students: 2
+Professors: 1
+Courses: 1
+Average GPA: 88.50
+
 ---
 
 ## Структура проєкту

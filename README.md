@@ -1,37 +1,38 @@
-# Dart Basics
+# Dart Basics Kuzmenko
 
-Практична робота 4
+Практична робота №4
 
-## Author
+## Мета роботи
 
-Ваше Имя
+Ознайомлення з основами мови програмування Dart:
 
-## Tasks
+змінні та типи даних;
+функції;
+об'єктно-орієнтоване програмування;
+колекції та обробка даних;
+асинхронне програмування.
 
-- Variables and Types
-- Functions
-- Classes and OOP
-- Collections
-- Async Programming
+---
 
-## Run
+## Структура проєкту
 
-Task 1:
+```text
+bin/
+├── task1_variables.dart
+├── task2_functions.dart
+├── task3_classes.dart
+├── task4_collections.dart
+└── task5_async.dart
 
-dart run bin/task1_variables.dart
+lib/
+├── models/
+│   ├── student.dart
+│   ├── course.dart
+│   └── university.dart
+│
+└── utils/
+    └── data_processor.dart
 
-Task 2:
-
-dart run bin/task2_functions.dart
-
-Task 3:
-
-dart run bin/task3_classes.dart
-
-Task 4:
-
-dart run bin/task4_collections.dart
-
-Task 5:
-
-dart run bin/task5_async.dart
+test/
+├── models_test.dart
+└── utils_test.dart
